@@ -1,0 +1,25 @@
+# Ignorar node_modules en cualquier subcarpeta
+node_modules/
+package.json
+package-lock.json
+
+# Ignorar archivos específicos como downloads
+downloads/
+*.tmp
+
+# Ignorar carpetas o archivos ocultos innecesarios
+.DS_Store
+Thumbs.db
+# Ignorar archivos por extensión
+*.tmp# Ignorar todos los archivos de una carpeta
+/Backed/
+
+# Ignorar archivos por extensión
+*.log
+*.tmp
+.env
+.DS_Store
+logs/
+
+nano .gitignore
+node_modules/
