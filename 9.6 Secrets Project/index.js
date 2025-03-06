@@ -59,7 +59,6 @@ app.get("/logout", (req, res) => {
 app.get("/secrets", async (req, res) => {
   console.log(req.user);
 
-  ////////////////UPDATED GET SECRETS ROUTE/////////////////
   if (req.isAuthenticated()) {
     try {
       const result = await db.query(
